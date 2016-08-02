@@ -23,6 +23,7 @@ var geometry = new THREE.SphereGeometry(1, 40, 20,
 geometry.vertices.forEach(function(v){
   v.multiplyScalar(0.5+0.5*Math.pow(Math.random(),3));
 });
+
 //Can also do custom geometry
 // var geometry = new THREE.Geometry();
 // for(var i = 0; i < 1000; i++) {
